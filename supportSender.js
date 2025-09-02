@@ -102,7 +102,7 @@ var backgroundAlternateTableOdd=getColorDarker(backgroundContainer,headerColorAl
 
 async function main(){
     initializationTheme()
-    await $.getScript("https://dl.dropboxusercontent.com/s/i5c0so9hwsizogm/styleCSSGlobal.js?dl=0");
+    await $.getScript("https://cdn.jsdelivr.net/gh/Kyohatsu/kyotw/styleCSSGlobal.js");
     createMainInterface()
     changeTheme()
     // countTotalTroops()
@@ -1077,4 +1077,5 @@ function getSpeedConstant() { //Get speed constant (world speed * unit speed) fo
             console.log("save speed world")
         return obj
     }
+
 }
