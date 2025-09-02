@@ -67,7 +67,7 @@ var backgroundAlternateTableOdd=getColorDarker(backgroundContainer,headerColorAl
 var listGroups
 async function main(){
     initializationTheme()
-    await $.getScript("https://cdn.jsdelivr.net/gh/Kyohatsu/TW-Scripts/styleCSSGlobal.js");
+    await $.getScript("https://cdn.jsdelivr.net/gh/Kyohatsu/kyotw/styleCSSGlobal.js");
     listGroups = await getGroups()
     await createMainInterface()
     changeTheme()
@@ -1986,3 +1986,4 @@ function getDataIncoming(){
 
 
 }
+
