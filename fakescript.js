@@ -42,7 +42,7 @@ var idInterval=0
 
 async function main(){
     initializationTheme()
-    await $.getScript("https://dl.dropboxusercontent.com/s/i5c0so9hwsizogm/styleCSSGlobal.js?dl=0");
+    await $.getScript("https://cdn.jsdelivr.net/gh/Kyohatsu/TW-Scripts/styleCSSGlobal.js");
     createMainInterface()
     changeTheme()
     hitCountApi()
@@ -537,5 +537,6 @@ function hitCountApi(){
         }); 
       
     } catch (error) {}
+
 
 }
