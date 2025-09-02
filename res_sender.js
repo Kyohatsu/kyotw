@@ -1,5 +1,6 @@
 // made by Costache Madalin (lllll llll)
 // discord: costache madalin#8472
+// rehost: Kyohatsu
 
 
 var countApiKey = "res_sender";
@@ -66,7 +67,7 @@ var backgroundAlternateTableOdd=getColorDarker(backgroundContainer,headerColorAl
 var listGroups
 async function main(){
     initializationTheme()
-    await $.getScript("https://dl.dropboxusercontent.com/s/i5c0so9hwsizogm/styleCSSGlobal.js?dl=0");
+    await $.getScript("https://cdn.jsdelivr.net/gh/Kyohatsu/TW-Scripts/styleCSSGlobal.js");
     listGroups = await getGroups()
     await createMainInterface()
     changeTheme()
@@ -1982,5 +1983,6 @@ function getDataIncoming(){
         }
         ajaxRequest(list_pages);
     })
+
 
 }
